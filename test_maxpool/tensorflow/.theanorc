@@ -1,0 +1,12 @@
+[global]
+floatX = float32
+device = cuda
+
+[lib]
+cnmem = 0.8
+
+[gpuarray]
+preallocate=0.1
+
+[warn]
+round=False
